@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D game fight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    <!-- <img src="/Forest.jpg" id="backgroundImage">
+    <img src="/sprite_robot.png" id="playerImage"> -->
+    <div class="controls">
+        <label for="animations">Choose Animation:</label>
+        <select id="animations" name="animations">
+            <option value="idle">Idle</option>
+            <option value="run-ready">run-ready</option>
+            <option value="run-start">run-start</option>
+            <option value="run-finish">run-finish</option>
+            <option value="jump-ready">jump-ready</option>
+            <option value="jump-start">jump-start</option>
+            <option value="jump-finish">jump-finish</option>
+            <option value="ko">KO</option>
+            <option value="punch">Get hit</option>
+        </select>
+    </div>
+
+
+
+    <script src="game.js"></script>
+</body>
+</html>
